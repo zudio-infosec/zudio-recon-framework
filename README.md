@@ -1,35 +1,35 @@
 # 🔍 Zudio Recon Framework
 
-> A multi-threaded offensive reconnaissance framework built in Python.
-> For educational and authorized security testing only.
+> A multi-threaded offensive reconnaissance framework built in Python for authorized security testing.
 
 ---
 
 ## ⚡ Features
 
-- 🔎 Automatic tool checker — detects missing tools
-- 📦 Auto installer — installs missing tools with user permission
-- 🧵 Multi-threaded — runs all tools simultaneously
-- 🌐 Smart URL parsing — handles any input format
-- 📄 Clean report generation with timestamp
-- 🔁 Run multiple targets in one session
+- 🔎 **Automatic tool checker** — detects missing tools on startup
+- 📦 **Auto installer** — installs missing tools with user permission
+- 🧵 **Multi-threaded execution** — runs all reconnaissance tools simultaneously for speed
+- 🌐 **Smart URL parsing** — handles various input formats seamlessly
+- 📄 **Clean report generation** — creates timestamped, structured reports
+- 🔁 **Bulk targets** — run multiple targets in a single session
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools Integrated
 
 | Tool | Purpose |
 |---|---|
-| `nmap` | Port scanning |
-| `whois` | Domain registration info |
-| `dig` | DNS records |
-| `curl` | HTTP headers |
+| `nmap` | Port scanning & service detection |
+| `whois` | Domain registration & ownership info |
+| `dig` | DNS record lookup |
+| `curl` | HTTP header analysis |
 | `amass` | Subdomain enumeration |
 | `nikto` | Web vulnerability scanning |
 
 ---
 
 ## 🚀 Usage
+
 ```bash
 git clone https://github.com/zudio-infosec/zudio-recon-framework.git
 cd zudio-recon-framework
@@ -40,7 +40,8 @@ python3 recon.py
 ---
 
 ## 📄 Sample Report Output
-```
+
+```text
 ============================================================
   ZUDIO RECON FRAMEWORK — REPORT
   Target    : example.com
@@ -65,12 +66,13 @@ example.com. IN A 93.184.216.34
 
 ## ⚠️ Disclaimer
 
-This tool is for **educational purposes** and **authorized penetration testing only**.
-Do not use against systems you do not have explicit permission to test.
-The developer is not responsible for any misuse.
+This tool is strictly for **educational purposes** and **authorized penetration testing only**. 
+
+**Do not use this tool against systems you do not have explicit, written permission to test.** The developer is not responsible for any misuse or illegal activity.
 
 ---
 
 ## 👨‍💻 Author
 
-**zudio-infosec** — Cybersecurity Student | Offensive Security Learner
+**Hasham Javed (Zudio)** — Cybersecurity Student | Offensive Security Learner
+[Portfolio](https://zudio-infosec.github.io/) | [LinkedIn](https://www.linkedin.com/in/hasham-javed-a03424400/)
